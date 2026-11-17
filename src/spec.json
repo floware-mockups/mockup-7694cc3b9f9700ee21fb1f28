@@ -1,0 +1,182 @@
+{
+  "title": "Registro presenze del laboratorio",
+  "description": "Gestione delle presenze, degli orari e delle attività svolte durante le sessioni del laboratorio didattico.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Panoramica",
+      "description": "Riepilogo delle sessioni e delle presenze registrate.",
+      "metrics": [
+        {
+          "label": "Sessioni registrate",
+          "value": "12"
+        },
+        {
+          "label": "Presenze odierne",
+          "value": "8"
+        },
+        {
+          "label": "Uscite registrate",
+          "value": "6"
+        },
+        {
+          "label": "Attività completate",
+          "value": "9"
+        }
+      ],
+      "columns": [
+        "Sessione",
+        "Data",
+        "Presenze",
+        "Attività"
+      ],
+      "rows": [
+        [
+          "Lumo — Carta e forme",
+          "12/05/2025",
+          "8",
+          "Piegatura modulare"
+        ],
+        [
+          "Vela — Piccoli circuiti",
+          "12/05/2025",
+          "6",
+          "Assemblaggio di base"
+        ],
+        [
+          "Nubi — Colori in movimento",
+          "11/05/2025",
+          "7",
+          "Composizione cromatica"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "presenze",
+      "title": "Registro presenze",
+      "description": "Consulta e filtra entrate, uscite e attività delle sessioni.",
+      "metrics": [
+        {
+          "label": "Registrazioni",
+          "value": "21"
+        },
+        {
+          "label": "Da completare",
+          "value": "2"
+        }
+      ],
+      "columns": [
+        "Partecipante",
+        "Sessione",
+        "Data",
+        "Entrata",
+        "Uscita",
+        "Attività svolta"
+      ],
+      "rows": [
+        [
+          "Lumo",
+          "Carta e forme",
+          "12/05/2025",
+          "09:05",
+          "10:30",
+          "Piegatura modulare"
+        ],
+        [
+          "Vela",
+          "Carta e forme",
+          "12/05/2025",
+          "09:12",
+          "10:28",
+          "Composizione di una figura"
+        ],
+        [
+          "Nubi",
+          "Piccoli circuiti",
+          "12/05/2025",
+          "10:45",
+          "12:00",
+          "Assemblaggio di base"
+        ],
+        [
+          "Mira",
+          "Piccoli circuiti",
+          "12/05/2025",
+          "10:52",
+          "—",
+          "Verifica dei collegamenti"
+        ],
+        [
+          "Timo",
+          "Colori in movimento",
+          "11/05/2025",
+          "14:03",
+          "15:20",
+          "Composizione cromatica"
+        ]
+      ],
+      "form": [
+        "Partecipante",
+        "Sessione",
+        "Data",
+        "Entrata",
+        "Uscita",
+        "Attività svolta"
+      ]
+    },
+    {
+      "id": "sessioni",
+      "title": "Sessioni",
+      "description": "Consulta il calendario delle attività didattiche e registra nuove sessioni.",
+      "metrics": [
+        {
+          "label": "Sessioni future",
+          "value": "4"
+        },
+        {
+          "label": "Posti disponibili",
+          "value": "18"
+        }
+      ],
+      "columns": [
+        "Sessione",
+        "Data",
+        "Orario",
+        "Posti previsti",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Carta e forme",
+          "14/05/2025",
+          "09:00–10:30",
+          "10",
+          "Programmato"
+        ],
+        [
+          "Piccoli circuiti",
+          "15/05/2025",
+          "10:30–12:00",
+          "8",
+          "Programmato"
+        ],
+        [
+          "Colori in movimento",
+          "16/05/2025",
+          "14:00–15:30",
+          "9",
+          "Programmato"
+        ]
+      ],
+      "form": [
+        "Sessione",
+        "Data",
+        "Orario",
+        "Posti previsti",
+        "Stato"
+      ]
+    }
+  ]
+}
